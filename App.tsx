@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import { MIRISHKOR_INFO, DISTRICT_STATS, LANDMARKS, FAMOUS_PEOPLE } from './constants';
 import { askMirishkorBot } from './services/geminiService';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App: React.FC = () => {
   const [chatQuery, setChatQuery] = useState('');
@@ -249,6 +250,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </section>
+      <SpeedInsights />
     </Layout>
   );
 };
