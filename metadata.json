@@ -1,0 +1,7 @@
+{
+  "name": "Mirishkor Tumani Portali",
+  "description": "Mirishkor tumani haqida to'liq ma'lumotlar: ma'muriyat, geografiya, iqtisodiyot, tarix va madaniyat.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
